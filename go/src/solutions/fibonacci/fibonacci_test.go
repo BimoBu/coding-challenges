@@ -1,11 +1,11 @@
 package fibonacci
 
 import (
-	main "go-coding-challenges"
+	inputAndExpectedValue "go-coding-challenges/src"
 	"testing"
 )
 
-var inputsAndExpectedValues = []main.InputAndExpectedValue[int, int]{
+var inputsAndExpectedValues = []inputAndExpectedValue.InputAndExpectedValue[int, int]{
 	{I: 0, E: 0},
 	{I: 1, E: 1},
 	{I: 2, E: 1},
