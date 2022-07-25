@@ -25,7 +25,7 @@ func TestRunningSum(t *testing.T) {
 	}
 }
 
-func BenchmarkFib1Input8(b *testing.B) {
+func BenchmarkRunningSum(b *testing.B) {
 	inputIndex := len(inputsAndExpectedValues) - 1
 	for i := 0; i < b.N; i++ {
 		runningSum(inputsAndExpectedValues[inputIndex].I)
